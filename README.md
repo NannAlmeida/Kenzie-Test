@@ -20,3 +20,9 @@ source venv/bin/activate
 ```
 python ./app.py
 ```
+
+- Url da aplicação:
+
+```
+http://localhost:5000/
+```
