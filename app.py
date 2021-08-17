@@ -6,7 +6,7 @@ from kenzie.files import list_files, download, download_dir_as_zip
 
 app = Flask(__name__)
 app.config['FILE_DIRECTORY'] = os.environ.get('FILE_DIRECTORY')
-app.config['MAX_CONTENT_LENGTH'] = int(os.environ.get('MAX_CONTENT_LENGTH')) * 1024 * 1024
+app.config['MAX_CONTENT_LENGTH'] = 1 * 1024 * 1024
 
 
 @app.route('/upload', methods=["POST"])
